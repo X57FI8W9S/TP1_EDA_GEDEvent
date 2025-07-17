@@ -1,9 +1,9 @@
-Dataset: UCDP GED 25.1
+## Dataset: UCDP GED 25.1
 
 
 https://ucdp.uu.se/downloads/index.html#ged_global
 
-copiar dataset a 
+# copiar dataset a 
 
 datasets/GEDEvent_v25_1.csv
 
@@ -23,7 +23,7 @@ Dataset de “eventos” violentos, en que se enfrentan dos actores organizados 
 
 ● con fecha y geolocalización
 
-Variables Seleccionadas
+## Variables Seleccionadas
 
 
 ● date_start
