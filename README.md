@@ -48,3 +48,4 @@ Dataset de “eventos” violentos, en que se enfrentan dos actores organizados 
 
 ● deaths_civilians
 
+![](https://github.com/X57FI8W9S/TP1_EDA_GEDEvent/blob/main/notebooks/img/Screenshot.png)
