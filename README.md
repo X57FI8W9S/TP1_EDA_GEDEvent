@@ -48,4 +48,18 @@ Dataset de “eventos” violentos, en que se enfrentan dos actores organizados 
 
 ● deaths_civilians
 
+## Problema a resolver: predecir mapa de calor del nivel de muertes por actores armados.
+
+● Plantear serie de matrices de 100×200, una para cada mes del dataset.
+
+● Dividir el mapa del mundo en una cuadrícula de 100 x 200 (1,8° x 1,8°) y agregar las estimaciones de muertes totales (best) en la serie de matrices.
+
+● Clasificar el número de muertes en 3 categorías: gris, amarillo, naranja, rojo.
+
+● Entrenar un modelo para clasificar cada celda del siguiente período.
+
+● Presentar los resultados como un “mapa de calor”.
+
+
+la idea sería que quede así:
 ![](https://github.com/X57FI8W9S/TP1_EDA_GEDEvent/blob/main/notebooks/img/Screenshot.png)
