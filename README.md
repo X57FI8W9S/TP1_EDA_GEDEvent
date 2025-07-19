@@ -65,6 +65,6 @@ la idea sería que quede así:
 ![](https://github.com/X57FI8W9S/TP1_EDA_GEDEvent/blob/main/notebooks/img/Screenshot.png)
 
 
-El análisis exploratorio del conjunto de datos UCDP GEDEvent 25.1 permitió obtener una visión detallada de la violencia organizada con resultado letal en distintas regiones del mundo. Se observa que la región de Medio Oriente concentra la mayor cantidad de eventos (más de 122.000), seguida por Asia y África. Los países más afectados son Siria, Afganistán y Ucrania. El Gobierno de Siria aparece como el actor A más frecuente, mientras que los insurgentes sirios y la población civil son los actores B más comunes. El tipo de violencia más común es el conflicto estatal (70%), seguido por la violencia unilateral (15%) y los conflictos no estatales (14%).
+El análisis exploratorio del conjunto de datos UCDP GEDEvent 25.1 permitió obtener una visión detallada de la violencia organizada con resultado letal en distintas regiones del mundo. Se observa que la región de Medio Oriente concentra la mayor cantidad de eventos, más de 122.000, seguida por Asia y África. Los países más afectados son Siria, Afganistán y Ucrania. El Gobierno de Siria aparece como el actor A más frecuente, mientras que los insurgentes sirios y la población civil son los actores B más frecuentes. El tipo de violencia más común es el conflicto estatal (70%), seguido por la violencia unilateral (15%) y los conflictos no estatales (14%).
 
 
