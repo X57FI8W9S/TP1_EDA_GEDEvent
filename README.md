@@ -26,7 +26,7 @@ https://drive.google.com/file/d/13pfb_W8FE4URuByZOnznv3mdQ6fZVUY-/view?usp=shari
 
 ### • stencil j+-1 k+-1 ✅ ###
 
-### • dimensionality reduction (specific / general) ###
+### • reducción dimensional(specific / general) ###
 
 ### • matriz de correlación con PBI y densidad de población ###
 
