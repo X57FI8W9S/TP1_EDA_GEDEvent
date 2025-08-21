@@ -8,6 +8,52 @@ https://ucdp.uu.se/downloads/index.html#ged_global
 datasets/GEDEvent_v25_1.csv
 
 
+La idea era atribuir los eventos según su latitud y longitud a una celda de 1,8° x 1,8° de un arreglo de 100 filas por 200 columnas, agregar los 'best' de los eventos mensualmente y así se llega a una serie de 433 .csv con 20.000 valores cada uno.
+
+Adicionalmente se aplicó un método similar a datos conseguidos de https://data.worldbank.org/ para PBI per capita y densidad de población para el año 2000, idealmente se deberían haber usado datos para todo el período del dataset de GEDEvent.
+
+Después se planteó un patrón de relación de datos de Latitud x Longitud, en este caso usamos sólo 1 y 2 (fer fig) pero posiblemente con más cuadros en el patrón funcionaría mejor. Después la idea era hacer la reducción dimensional pero no se consiguió limpiar errores como para que funcione.
+
+
+![](Untitled3.png)
+
+
+https://drive.google.com/file/d/13pfb_W8FE4URuByZOnznv3mdQ6fZVUY-/view?usp=sharing
+
+### • split ✅ ###
+
+### • scale ✅ ###
+
+### • stencil j+-1 k+-1 ✅ ###
+
+### • dimensionality reduction (specific / general) ###
+
+### • matriz de correlación con PBI y densidad de población ###
+
+### • tabla de contingencia entre celdas cercanas ### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Dataset de “eventos” violentos, en que se enfrentan dos actores organizados “armados”, o uno se enfrenta a civiles, con resultado de una muerte directa como mínimo.
 
 
@@ -59,12 +105,4 @@ Dataset de “eventos” violentos, en que se enfrentan dos actores organizados 
 ● Entrenar un modelo para clasificar cada celda del siguiente período.
 
 ● Presentar los resultados como un “mapa de calor”.
-
-
-la idea sería que quede así:
-![](https://github.com/X57FI8W9S/TP1_EDA_GEDEvent/blob/main/notebooks/img/Screenshot.png)
-
-
-El análisis exploratorio del conjunto de datos UCDP GEDEvent 25.1 permitió obtener una visión general de la violencia organizada con resultado letal en distintas regiones del mundo. Se observa que la región de Medio Oriente concentra la mayor cantidad de eventos, más de 122.000, seguida por Asia y África. Los países más afectados son Siria, Afganistán y Ucrania. El Gobierno de Siria aparece como el actor A más frecuente, mientras que los insurgentes sirios y la población civil son los actores B más frecuentes. El tipo de violencia más común es el conflicto estatal (70%), seguido por la violencia unilateral (15%) y los conflictos no estatales (14%).
-
 
